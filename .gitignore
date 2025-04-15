@@ -5,13 +5,3 @@ dist-ssr
 *.local
 .history
 # Editor directories and files
-.idea
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.local
-
-stats.html
-.stylelintcache
-.eslintcache
