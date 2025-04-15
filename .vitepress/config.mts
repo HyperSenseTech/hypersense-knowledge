@@ -8,7 +8,7 @@ export default defineConfig({
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   srcDir: './src',
   srcExclude: ['**/README.md', '**/TODO.md'], // 排除 README.md 和 TODO.md 文件
-  outDir: '../public',
+  // outDir: '../public',
   assetsDir: 'static',
   metaChunk : true,
   cleanUrls: true,
