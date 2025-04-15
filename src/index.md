@@ -7,7 +7,7 @@ hero:
   text: "氦闪开源知识库"
   tagline: "一个由氦闪开源组织驱动的知识分享库" 
   image:
-    src: /assets/index-logo.png
+    src: /hypersense-knowledge/assets/index-logo.png
     alt: Hypersense
   actions:
     - theme: brand

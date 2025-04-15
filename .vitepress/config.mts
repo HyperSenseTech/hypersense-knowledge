@@ -5,7 +5,7 @@ export default defineConfig({
   title: "氦闪开源知识库",
   description: "这是一个知识库应用,用于平常的知识管理",
   lang: 'zh-CN',
-  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: '/hypersense-knowledge/favicon.ico' }]],
   base: '/hypersense-knowledge/',
   srcDir: './src',
   srcExclude: ['**/README.md', '**/TODO.md'], // 排除 README.md 和 TODO.md 文件
@@ -15,13 +15,14 @@ export default defineConfig({
   cleanUrls: true,
   lastUpdated: true,
   themeConfig: {
-    logo: '/assets/logo.png',
+    logo: '/hypersense-knowledge/assets/logo.png',
     
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '技术栈', link: '/techstack/Ai/markdown-examples' },
-      { text: '生活日常', link: '/dailylife/api-examples' }
+      { text: '技术栈', link: '/techstack/ai/markdown-examples' },
+      { text: '项目分享', link: '/opensource/api-examples' },
+      { text: '科技前沿', link: '/techshared/api-examples' },
     ],
     search: {
       provider: 'local'
@@ -85,14 +86,23 @@ export default defineConfig({
           ]
         }
       ],
-      '/dailylife/': [
+     '/opensource/': [
         {
-          text: '生活日常',
+          text: '项目分享',
           collapsed: false,
           items: [
-            { text:'markdown-examples', link: '/dailylife/api-examples' },
+            { text:'markdown-examples', link: '/opensource/api-examples' },
           ]
         },
+      ],
+      '/techshared/': [
+        {
+          text: '科技前沿',
+          collapsed: false,
+          items: [
+            { text:'markdown-examples', link: '/techshared/api-examples' },
+          ]   
+        }
       ]
       
     },
