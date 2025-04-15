@@ -13,7 +13,5 @@ dist-ssr
 *.local
 
 stats.html
-pnpm-lock.yaml
-package-lock.json
 .stylelintcache
 .eslintcache
