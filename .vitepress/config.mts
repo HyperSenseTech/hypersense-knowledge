@@ -5,8 +5,7 @@ export default defineConfig({
   title: "氦闪开源知识库",
   description: "这是一个知识库应用,用于平常的知识管理",
   lang: 'zh-CN',
-  base: '/hypersense-knowledge/',
-  head: [['link', { rel: 'icon', href: '/hypersense-knowledge/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   srcDir: './src',
   srcExclude: ['**/README.md', '**/TODO.md'], // 排除 README.md 和 TODO.md 文件
   outDir: '../public',
