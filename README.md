@@ -1,5 +1,4 @@
 <div align="center">
-   <img alt="logo" width="200" height="200" src="public/images/logo.png">
    <h2>hypersense-knowledge</h2>
    <a href="https://github.com/HyperSenseTech" target="_blank">
      <img alt="氦闪技术" src="https://img.shields.io/github/stars/ac4nd
