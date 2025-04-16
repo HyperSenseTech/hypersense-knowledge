@@ -26,7 +26,7 @@ export default defineConfig({
     outline: [1, 6],
     nav: [
       {
-        text: '前端进阶',
+        text: '前端技术栈',
         items: [
           { text: 'Vue进阶', link: '/docs/web/vue/default' },
           { text: 'React进阶', link: '/docs/web/react/react扩展' },
@@ -36,7 +36,7 @@ export default defineConfig({
         ],
       },
       {
-        text: '后端进阶',
+        text: '后端技术栈',
         items: [
           { text: 'Java基础', link: '/docs/server/java/模块1_入门程序/default' },
         ],
