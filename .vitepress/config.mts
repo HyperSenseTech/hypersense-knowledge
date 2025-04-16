@@ -5,6 +5,9 @@ export default defineConfig({
   title: "氦闪开源知识库",
   description: "这是一个知识库应用,用于平常的知识管理",
   base: '/hypersense-knowledge/',
+  metaChunk : true,
+  cleanUrls: true,
+  srcExclude: ['**/README.md','**/README.en.md', '**/TODO.md'],
   head: [
     /**
     * 这里用到了公用目录 public ： 资源路径可以直接用绝对路径 /xxx
