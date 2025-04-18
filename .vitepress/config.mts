@@ -46,7 +46,7 @@ export default defineConfig({
       },
       { text: '问题记录', link: '/docs/question/vue/bigscreen' },
       { text: '我的工具', link: '/docs/tool/common/default' },
-      { text: '开源项目', link: '/docs/project/vue/default' },
+      { text: '我的项目', link: '/docs/project/hypersense-agent/default' },
       { text: '优质推荐', link: '/docs/recommend/common/default' },
     ],
     sidebar: {
@@ -131,8 +131,8 @@ export default defineConfig({
       ]
     },
     footer: {
-      message: '温馨提示：转载知识库文章，请标明出处',
-      copyright: 'Copyright@ 2024 狗尾巴花的尖',
+      message: 'All Rights Reserved.',
+      copyright: 'Copyright © 2025 hypersense.tech 渝ICP备2025054756号-1',
     },
     search: {
       provider: 'local',

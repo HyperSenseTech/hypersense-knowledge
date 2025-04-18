@@ -10,7 +10,7 @@ features:
     title: hypersense-agent
     details: 🌟基于hypersense-template 为模板制作的AI智能助手系统 
              🌟内部集成了AI对话聊天等功能
-    link: https://gitee.com/datural/hypersense-agent
+    link: /docs/project/hypersense-agent/default
   - icon: 🏵
     title: hypersense-agent-vue
     details: 🌟基于Vue3 + Element Plus 构建的AI智能助手系统UI界面
